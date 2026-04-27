@@ -1,0 +1,8 @@
+.env
+uploads/
+venv/
+__pyache__/
+*.pdf
+*.docx
+*.txt
+key.txt

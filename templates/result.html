@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analysis Result</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    body{
+      align-items: flex-start;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <h1>Resume Analysis Result</h1>
+  <div class="result-box"></div>{{ result|safe }}</div>
+  <a href="/">Analyze Another Resume</a>
+  </div>
+</body>
+</html>
